@@ -5,7 +5,7 @@ import (
 
 	"titanic-passengers/internal/store"
 
-	"github.com/labstack/echo/v4"
+	echo "github.com/labstack/echo/v4"
 )
 
 type AppContext struct {
