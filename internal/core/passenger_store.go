@@ -1,7 +1,7 @@
 package core
 
 import (
-	"titanic-passangers/internal/models"
+	"github.com/motish-sw/titanic-passenger-list/internal/models"
 
 	"github.com/jinzhu/gorm"
 )

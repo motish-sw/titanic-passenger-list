@@ -3,8 +3,8 @@ package controller
 import (
 	"net/http"
 
-	"titanic-passangers/internal/context"
-	"titanic-passangers/internal/models"
+	"github.com/motish-sw/titanic-passenger-list/internal/context"
+	"github.com/motish-sw/titanic-passenger-list/internal/models"
 
 	"github.com/labstack/echo/v4"
 )

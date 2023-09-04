@@ -1,10 +1,10 @@
 package core
 
 import (
-	"titanic-passangers/config"
+	"github.com/motish-sw/titanic-passenger-list/config"
 
 	"github.com/jinzhu/gorm"
-	"github.com/labstack/echo/v4"
+	echo "github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
 
@@ -18,16 +18,7 @@ type Server struct {
 func NewServer(config *config.Configuration) *Server {
 	server := &Server{}
 	server.config = config
-	// i18n.Configure(config.LocaleDir, config.Lang, config.LangDomain)
-	// server.modelRegistry = models.NewModel()
-	// err := server.modelRegistry.OpenWithConfig(config)
 
-	// if err != nil {
-	// 	log.Fatalf("gorm: could not connect to db %q", err)
-	// }
-
-	// server.cache = cache.NewCache(config)
-	// server.db = server.modelRegistry.DB
 	server.Echo = NewRouter(server)
 
 	// Middleware

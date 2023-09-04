@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"titanic-passangers/internal/context"
+	"github.com/motish-sw/titanic-passenger-list/internal/context"
 
 	"github.com/labstack/echo/v4"
 )

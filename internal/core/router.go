@@ -1,12 +1,12 @@
 package core
 
 import (
-	"titanic-passangers/internal/context"
+	"github.com/motish-sw/titanic-passenger-list/internal/context"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	mid "titanic-passangers/internal/core/middleware"
+	mid "github.com/motish-sw/titanic-passenger-list/internal/core/middleware"
 
 	v "gopkg.in/go-playground/validator.v9"
 )

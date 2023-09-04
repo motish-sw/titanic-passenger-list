@@ -1,9 +1,9 @@
 package context
 
 import (
-	"titanic-passengers/config"
+	"github.com/motish-sw/titanic-passenger-list/config"
 
-	"titanic-passengers/internal/store"
+	"github.com/motish-sw/titanic-passenger-list/internal/store"
 
 	echo "github.com/labstack/echo/v4"
 )

@@ -1,6 +1,6 @@
 package store
 
-import "titanic-passengers/internal/models"
+import "github.com/motish-sw/titanic-passenger-list/internal/models"
 
 type Passenger interface {
 	First(m *models.Passenger) error
