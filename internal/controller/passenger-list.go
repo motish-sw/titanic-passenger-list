@@ -29,10 +29,10 @@ func (ctrl PassengerList) GetPassengers(c echo.Context) error {
 	}
 
 	viewModel := PassengerListViewModel{
-		Passengers: make([]PassengerViewModel, len(Passengers)),
+		Passengers: make([]PassengerViewModel, len(passengers)),
 	}
 
-	for index, Passenger := range Passengers {
+	for index, Passenger := range passengers {
 		viewModel.Passengers[index] = PassengerViewModel{
 			Name: Passenger.Name,
 			ID:   Passenger.ID,

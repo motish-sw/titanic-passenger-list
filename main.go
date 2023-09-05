@@ -2,9 +2,9 @@ package main
 
 import (
 	"log"
-	"titanic-passangers/config"
-	"titanic-passangers/internal/controller"
-	core "titanic-passangers/internal/core"
+	"github.com/motish-sw/titanic-passenger-list/config"
+	"github.com/motish-sw/titanic-passenger-list/internal/controller"
+	core "github.com/motish-sw/titanic-passenger-list/internal/core"
 	// _ "modernc.org/sqlite"
 )
 
